@@ -1,8 +1,10 @@
 nastawZegar <- function(pudełko) {
-  for(name in ls()) {
-    o <- get(name)
-    if(class(o) == "pudełko") {
-      if(isNulo$baranek)
+  for(name in ls(envir=globalenv())) {
+    o <- get(name, globalenv())
+    if((class(o) == "pudełko") && (o$id == pudełko$id) && (!is.null(o$baranek)) && (class(o$baranek)=="baranek")) {
+      o$baranek$czyŻyje <- sample(c(TRUE, FALSE), 1)
+      eval.parent(substitute(pudełko$baranek<-o$baranek))
     }
   }
+  cat("3.. 2.. 1.. TERMINATED.")
 }
