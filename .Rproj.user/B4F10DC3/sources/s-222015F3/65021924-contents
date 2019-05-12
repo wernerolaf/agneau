@@ -1,0 +1,23 @@
+#' Funkcja wyświetlająca pudełko.
+#'
+#' @param pudelko pudelko.
+#'
+#' @return NULL
+#' @example
+#' print(pudelko)
+#' @export
+
+print.pudelko <- function(pudelko) {
+  cat("
+  .----------,
+ ;---------.'|
+ |         | |
+ |  O O O  | |
+ |         | /
+ '----------'
+")
+}
+
+
+
+
