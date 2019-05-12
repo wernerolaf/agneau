@@ -1,0 +1,12 @@
+#' Ta funkcja zwraca pudełko.
+#'
+#' @return pudelko
+#' @example
+#' pudelko()
+#' @export
+
+pudelko <- function(id = runif(1000)) {
+  p <-list(zawartosc = NULL, id=id)
+  class(p) <- "pudelko"
+  p
+}

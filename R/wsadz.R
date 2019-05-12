@@ -1,0 +1,17 @@
+#' Funkcja, która wsadza rzeczy (np. baranki) do pudełka.
+#'
+#' @param pudelko pudelko. Pudelko z barankiem.
+#' @param baranek baranek (albo coś innego).
+#'
+#' @return NULL
+#' @example
+#' wsadz(pudelko, baranek)
+#' @export
+
+wsadz <- function(pudelko, baranek) {
+  if(is.null(pudelko$zawartosc)) {
+    eval.parent(substitute(pudelko$zawartosc <- baranek))
+  } else {
+    warning("Cos juz jest w pudelku.")
+  }
+}

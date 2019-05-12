@@ -1,11 +1,3 @@
-# agneau
-
-Ageau (fran. baranek) udostępnia zestaw narzędzi do przeprowadzenia doświadczenia "baranka Schrödinger'a", czyli połączenia 
-"kota Schrödinger'a" z barankiem Małego Księcia.
-
-# Przykład
-
-```r
 set.seed(6)
 Pudełko <- pudelko()
 print(Pudełko)
@@ -46,4 +38,4 @@ potrzasnij(Pudełko)
 otworz(Pudełko)
 
 # :)
-```
+
