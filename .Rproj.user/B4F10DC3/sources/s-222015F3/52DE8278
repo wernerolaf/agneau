@@ -1,21 +1,21 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1557650714308.000,
+    "created" : 1557653967513.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "4255584102",
-    "id" : "ACE47C89",
-    "lastKnownWriteTime" : 1557652104,
-    "last_content_update" : 1557652104486,
+    "hash" : "3131096124",
+    "id" : "52DE8278",
+    "lastKnownWriteTime" : 1557653975,
+    "last_content_update" : 1557653975718,
     "path" : "~/Desktop/agneau/vignettes/How_to_use.Rmd",
     "project_path" : "vignettes/How_to_use.Rmd",
     "properties" : {
-        "cursorPosition" : "25,3",
+        "cursorPosition" : "18,6",
         "scrollLine" : "6"
     },
-    "relative_order" : 5,
+    "relative_order" : 6,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"

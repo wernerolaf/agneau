@@ -9,6 +9,11 @@
 \arguments{
 \item{baranek}{baranek}
 }
+\value{
+NULL
+
+print(baranek)
+}
 \description{
 Funkcja wyświetlająca baranka. Lepiej jednak go nie wyświetlać...
 }

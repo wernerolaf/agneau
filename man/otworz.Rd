@@ -9,6 +9,11 @@ otworz(pudelko)
 \arguments{
 \item{pudelko}{pudelko. Pudelko z barankiem.}
 }
+\value{
+NULL
+
+otworz(pudelko)
+}
 \description{
 Funkcja otwierająca pudełko. Pokazuje co jest wewnątrz.
 }

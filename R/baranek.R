@@ -3,7 +3,7 @@
 #' @param name String. Imie baranka.
 #'
 #' @return baranek.
-#' @example
+#'
 #' Marcin <- baranek("Marcin")
 #' @export
 

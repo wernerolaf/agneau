@@ -11,6 +11,11 @@ wsadz(pudelko, baranek)
 
 \item{baranek}{baranek (albo coś innego).}
 }
+\value{
+NULL
+
+wsadz(pudelko, baranek)
+}
 \description{
 Funkcja, która wsadza rzeczy (np. baranki) do pudełka.
 }

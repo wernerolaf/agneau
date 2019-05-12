@@ -11,6 +11,8 @@ baranek(name)
 }
 \value{
 baranek.
+
+Marcin <- baranek("Marcin")
 }
 \description{
 Ta funkcja zwraca baranka.

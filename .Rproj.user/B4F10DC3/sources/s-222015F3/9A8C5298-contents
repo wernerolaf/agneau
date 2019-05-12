@@ -3,13 +3,11 @@ Title: Baranek w pudle
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Olaf",
-           family = "Werner",
-           role = c("aut", "cre"),
-           comment = structure("YOUR-ORCID-ID", .Names = "ORCID"))
+          family = "Werner",
+          role = c("aut", "cre")
     person(given = "Bogdan",
-           family = "Jastrzębski",
-           role = c("aut", "cre"),
-           comment = structure("YOUR-ORCID-ID", .Names = "ORCID"))
+          family = "Jastrzębski",
+          role = c("aut", "cre")
 Description: Baranek w pudle
 License: What license it uses
 Encoding: UTF-8

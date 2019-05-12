@@ -69,57 +69,12 @@
       
       </header><div class="row">
   <div class="contents col-md-9">
-
 <div id="agneau" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#agneau" class="anchor"></a>agneau</h1></div>
-<p>Ageau (fran. baranek) udostępnia zestaw narzędzi do przeprowadzenia doświadczenia “baranka Schrödinger’a”, czyli połączenia “kota Schrödinger’a” z barankiem Małego Księcia.</p>
+<p>agneau (fran. baranek) udostępnia zestaw narzędzi do przeprowadzenia doświadczenia “baranka Schrödinger’a”, czyli połączenia “kota Schrödinger’a” z barankiem Małego Księcia.</p>
+<p>By zainstalować wpisz devtools::install_github(“wernerolaf/agneau”) w swojej konsoli</p>
 </div>
-<div id="przykad" class="section level1">
-<h1 class="hasAnchor">
-<a href="#przykad" class="anchor"></a>Przykład</h1>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/Random">set.seed</a></span>(<span class="dv">6</span>)
-Pudełko &lt;-<span class="st"> </span><span class="kw"><a href="reference/pudelko.html">pudelko</a></span>()
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/print">print</a></span>(Pudełko)
-
-<span class="co"># Baranka, jak to zrobił pilot, od razu należy umieścić w pudełku.</span>
-<span class="kw"><a href="reference/wsadz.html">wsadz</a></span>(Pudełko,  <span class="kw"><a href="reference/baranek.html">baranek</a></span>(<span class="st">"Marcin"</span>))
-
-<span class="kw"><a href="reference/otworz.html">otworz</a></span>(Pudełko)
-
-<span class="kw"><a href="reference/potrzasnij.html">potrzasnij</a></span>(Pudełko)
-
-<span class="co"># Moment biblijny (mord baranka)</span>
-<span class="kw"><a href="reference/nastawZegar.html">nastawZegar</a></span>(Pudełko)
-
-<span class="co"># Ponieważ jako programiści tego świata jesteśmy omniscjentni...</span>
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/print">print</a></span>(Pudełko<span class="op">$</span>zawartosc<span class="op">$</span>czyZyje)
-
-<span class="co"># Tu następuje collapse</span>
-<span class="kw"><a href="reference/potrzasnij.html">potrzasnij</a></span>(Pudełko)
-
-<span class="kw"><a href="reference/otworz.html">otworz</a></span>(Pudełko)
-
-<span class="co"># :(</span>
-
-<span class="co"># Jeszcze raz...</span>
-Pudełko &lt;-<span class="st"> </span><span class="kw"><a href="reference/pudelko.html">pudelko</a></span>()
-<span class="kw"><a href="reference/wsadz.html">wsadz</a></span>(Pudełko,  <span class="kw"><a href="reference/baranek.html">baranek</a></span>(<span class="st">"Marcin v2"</span>))
-
-<span class="kw"><a href="reference/potrzasnij.html">potrzasnij</a></span>(Pudełko) <span class="co"># Jest wewnątrz</span>
-
-<span class="kw"><a href="reference/nastawZegar.html">nastawZegar</a></span>(Pudełko) 
-
-<span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/print">print</a></span>(Pudełko<span class="op">$</span>zawartosc<span class="op">$</span>czyZyje)
-
-<span class="co"># Tu następuje collapse</span>
-<span class="kw"><a href="reference/potrzasnij.html">potrzasnij</a></span>(Pudełko)
-
-<span class="kw"><a href="reference/otworz.html">otworz</a></span>(Pudełko)
-
-<span class="co"># :)</span></code></pre></div>
-</div>
-
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
@@ -132,7 +87,8 @@ Pudełko &lt;-<span class="st"> </span><span class="kw"><a href="reference/pudel
 <div class="developers">
 <h2>Developers</h2>
 <ul class="list-unstyled">
-<li>Bogdan Jastrzębski <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/YOUR-ORCID-ID" target="orcid.widget"><img src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" class="orcid" alt="ORCID" height="16"></a> </li>
+<li>Olaf Werner <br><small class="roles"> Author </small>  </li>
+<li>Bogdan Jastrzębski <br><small class="roles"> Author, maintainer </small>  </li>
 </ul>
 </div>
 
@@ -140,7 +96,7 @@ Pudełko &lt;-<span class="st"> </span><span class="kw"><a href="reference/pudel
 </div>
 
       <footer><div class="copyright">
-  <p>Developed by Bogdan Jastrzębski.</p>
+  <p>Developed by Olaf Werner, Bogdan Jastrzębski.</p>
 </div>
 
 <div class="pkgdown">

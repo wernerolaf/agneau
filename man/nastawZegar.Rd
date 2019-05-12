@@ -9,6 +9,11 @@ nastawZegar(pudelko)
 \arguments{
 \item{pudelko}{pudelko. Pudelko z barankiem.}
 }
+\value{
+NULL
+
+nastawZegar(pudelko)
+}
 \description{
 Nastawienie zegara, który uruchamia maszynę uśmiercającą lub nieuśmiercającą baranka.
 }

@@ -2,9 +2,7 @@
 #'
 #' @return pudelko
 #'
-#'
-#' @importFrom stats runif
-#'
+#' pudelko()
 #' @export
 
 pudelko <- function(id = runif(1000)) {

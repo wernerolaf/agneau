@@ -3,7 +3,7 @@
 #' @param pudelko pudelko. Pudelko z barankiem.
 #'
 #' @return NULL
-#' @example
+#'
 #' potrzasnij(pudelko)
 #' @export
 

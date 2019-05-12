@@ -9,6 +9,11 @@
 \arguments{
 \item{pudelko}{pudelko}
 }
+\value{
+NULL
+
+print(pudelko)
+}
 \description{
 Funkcja wyświetlająca pudełko.
 }

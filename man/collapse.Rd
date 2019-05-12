@@ -11,6 +11,8 @@ collapse(pudelko)
 }
 \value{
 baranek
+
+baranek <- collapse(pudelko)
 }
 \description{
 Collapse baranka.

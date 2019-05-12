@@ -9,6 +9,11 @@ potrzasnij(pudelko)
 \arguments{
 \item{pudelko}{pudelko. Pudelko z barankiem.}
 }
+\value{
+NULL
+
+potrzasnij(pudelko)
+}
 \description{
 Funkcja trzęsąca pudełkiem.
 }
