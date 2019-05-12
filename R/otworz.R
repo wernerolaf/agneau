@@ -1,0 +1,28 @@
+#' Funkcja otwierająca pudełko. Pokazuje co jest wewnątrz.
+#'
+#' @param pudelko pudelko. Pudelko z barankiem.
+#'
+#' @return NULL
+#' @example
+#' otworz(pudelko)
+#' @export
+
+otworz <- function(pudelko) {
+  if(!is.null(pudelko$zawartosc)){
+
+    if(is.na(pudelko$zawartosc$czyZyje)) {
+      bar <- collapse(pudelko)
+      eval.parent(substitute(pudelko$zawartosc <- bar))
+    } else {
+      bar <- pudelko$zawartosc
+    }
+
+    if(bar$czyZyje) {
+      cat("W pudelku jest baranek. (bee bee!)")
+    } else {
+      cat("W pudelku jest zdechly baranek. (cisza)")
+    }
+  } else {
+    cat("Pudelko jest puste")
+  }
+}

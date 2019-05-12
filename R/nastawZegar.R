@@ -1,9 +1,18 @@
-nastawZegar <- function(pudełko) {
+#' Nastawienie zegara, który uruchamia maszynę uśmiercającą lub nieuśmiercającą baranka.
+#'
+#' @param pudelko pudelko. Pudelko z barankiem.
+#'
+#' @return NULL
+#' @example
+#' nastawZegar(pudelko)
+#' @export
+
+nastawZegar <- function(pudelko) {
   for(name in ls(envir=globalenv())) {
     o <- get(name, globalenv())
-    if((class(o) == "pudełko") && (o$id == pudełko$id) && (!is.null(o$zawartość)) && (class(o$zawartość)=="baranek")) {
-      o$zawartość$czyŻyje <- NA
-      eval.parent(substitute(pudełko <- o))
+    if((class(o) == "pudelko") && (o$id == pudelko$id) && (!is.null(o$zawartosc)) && (class(o$zawartosc)=="baranek")) {
+      o$zawartosc$czyZyje <- NA
+      eval.parent(substitute(pudelko <- o))
     }
   }
   cat("3.. 2.. 1.. TERMINATED.")
