@@ -12,7 +12,7 @@ nastawZegar <- function(pudelko) {
     o <- get(name, globalenv())
     if((class(o) == "pudelko") && (o$id == pudelko$id) && (!is.null(o$zawartosc)) && (class(o$zawartosc)=="baranek")) {
       o$zawartosc$czyZyje <- NA
-      eval.parent(substitute(pudelko <- o))
+      eval.parent(substitute(pudelko$zawartosc <- o$zawartosc))
     }
   }
   cat("3.. 2.. 1.. TERMINATED.")

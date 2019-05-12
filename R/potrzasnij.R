@@ -9,7 +9,7 @@
 
 potrzasnij <- function(pudelko) {
   if(is.null(pudelko$zawartosc)) {
-    print("... (cisza)")
+    cat("... (cisza)")
   } else {
 
     if(is.na(pudelko$zawartosc$czyZyje)) {
@@ -20,9 +20,9 @@ potrzasnij <- function(pudelko) {
     }
 
     if(bar$czyZyje) {
-        print("bee! bee!")
+        cat("bee! bee!")
     } else {
-        print("... (cisza)")
+        cat("... (cisza)")
     }
   }
 }
