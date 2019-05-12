@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "3772430554",
     "id" : "5D63FBAA",
-    "lastKnownWriteTime" : 1557649039,
-    "last_content_update" : 1557649039,
+    "lastKnownWriteTime" : 1557651145,
+    "last_content_update" : 1557651145930,
     "path" : "~/Desktop/agneau/R/print.baranek.R",
     "project_path" : "R/print.baranek.R",
     "properties" : {
-        "cursorPosition" : "4,0",
-        "scrollLine" : "0"
+        "cursorPosition" : "11,30",
+        "scrollLine" : "14"
     },
     "relative_order" : 5,
     "source_on_save" : false,

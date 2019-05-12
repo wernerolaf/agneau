@@ -4,7 +4,7 @@
 \alias{print.baranek}
 \title{Funkcja wyświetlająca baranka. Lepiej jednak go nie wyświetlać...}
 \usage{
-\method{print}{baranek}(b)
+\method{print}{baranek}(baranek)
 }
 \arguments{
 \item{baranek}{baranek}

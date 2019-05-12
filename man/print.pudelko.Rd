@@ -7,7 +7,7 @@
 \method{print}{pudelko}(pudelko)
 }
 \arguments{
-\item{pudelko}{pudelko.}
+\item{pudelko}{pudelko}
 }
 \description{
 Funkcja wyświetlająca pudełko.

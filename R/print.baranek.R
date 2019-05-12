@@ -7,9 +7,9 @@
 #' print(baranek)
 #' @export
 
-print.baranek <- function(b) {
-stopifnot(class(b) == "baranek")
-  cat(paste("Baranek", b$imie))
+print.baranek <- function(baranek) {
+stopifnot(class(baranek) == "baranek")
+  cat(paste("Baranek", baranek$imie))
 
 cat("
   \\ ;; /

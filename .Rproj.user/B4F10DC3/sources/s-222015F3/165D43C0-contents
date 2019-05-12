@@ -1,6 +1,6 @@
 library(devtools)
 library(pkgdown)
 devtools::build_vignettes()
-use_vignette("How_to_use")
+use_vignette("Howe")
 document()
 pkgdown::build_site()
