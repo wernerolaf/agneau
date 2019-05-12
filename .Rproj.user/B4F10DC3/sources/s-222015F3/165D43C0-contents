@@ -1,6 +1,7 @@
 library(devtools)
 library(pkgdown)
 devtools::build_vignettes()
-use_vignette("Howe")
+devtools::check()
+devtools::document()
 document()
 pkgdown::build_site()

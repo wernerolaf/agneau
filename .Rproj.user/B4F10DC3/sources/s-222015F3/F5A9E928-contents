@@ -5,10 +5,12 @@ Authors@R:
     person(given = "Olaf",
            family = "Werner",
            role = c("aut", "cre"),
+           email = "first.last@example.com",
            comment = structure("YOUR-ORCID-ID", .Names = "ORCID"))
     person(given = "Bogdan",
            family = "Jastrzębski",
            role = c("aut", "cre"),
+           email = "first.last@example.com",
            comment = structure("YOUR-ORCID-ID", .Names = "ORCID"))
 Description: Baranek w pudle
 License: What license it uses
