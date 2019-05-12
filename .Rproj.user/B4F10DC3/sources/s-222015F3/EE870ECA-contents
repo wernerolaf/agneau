@@ -4,3 +4,5 @@ agneau (fran. baranek) udostępnia zestaw narzędzi do przeprowadzenia doświadc
 "kota Schrödinger'a" z barankiem Małego Księcia.
 
 By zainstalować wpisz devtools::install_github("wernerolaf/agneau") w swojej konsoli
+
+Strona pakietu https://wernerolaf.github.io/agneau/
