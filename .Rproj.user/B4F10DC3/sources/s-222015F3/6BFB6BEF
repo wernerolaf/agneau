@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1557590449720.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6BFB6BEF",
+    "lastKnownWriteTime" : 1557590496,
+    "last_content_update" : 1557590496821,
+    "path" : "~/Desktop/agneau/R/nastawZegar.R",
+    "project_path" : "R/nastawZegar.R",
+    "properties" : {
+        "cursorPosition" : "10,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
